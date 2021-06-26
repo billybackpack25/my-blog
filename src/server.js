@@ -5,7 +5,7 @@ import path from 'path';
 
 const app = express();
 const port = process.env.port || 8005;
-const url ="mongodb://hassonb:password@192.168.0.88/my-blog?poolSize=20&writeConcern=majority";
+const url ="mongodb://localhost/my-blog?poolSize=20&writeConcern=majority";
 const dbName = "my-blog";
 const collection = 'articles';
 
